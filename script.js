@@ -10,3 +10,9 @@ class Second extends First {
         console.log('А я наследуемый метод!');
     }
 }
+
+const f = new First();
+f.hello();
+
+const s = new Second();
+s.hello();

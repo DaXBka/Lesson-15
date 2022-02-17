@@ -1,5 +1,5 @@
 const DomElement = function (
-    selector,
+    selector = '.unnamed',
     height = 100,
     width = 100,
     bg = 'red',
